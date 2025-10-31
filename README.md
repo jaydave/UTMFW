@@ -2,7 +2,7 @@
 
 UTMFW is a UTM firewall running on OpenBSD. UTMFW is expected to be used on production systems. The UTMFW project provides a Web User Interface (WUI) for monitoring and configuration. You can also use the Android application [A4PFFW](https://github.com/sonertari/A4PFFW) and the Windows application [W4PFFW](https://github.com/sonertari/W4PFFW) for monitoring.
 
-UTMFW is an updated version of ComixWall. However, there are a few major changes, such as [SSLproxy](https://github.com/sonertari/SSLproxy), Snort Inline IPS, [PFRE](https://github.com/sonertari/PFRE), E2Guardian, many fixes and improvements to the system and the WUI, and network user authentication. Also note that UTMFW 7.7 comes with OpenBSD 7.7-stable including all updates until April 30th, 2025.
+UTMFW is an updated version of ComixWall. However, there are a few major changes, such as [SSLproxy](https://github.com/sonertari/SSLproxy), Snort Inline IPS, [PFRE](https://github.com/sonertari/PFRE), E2Guardian, many fixes and improvements to the system and the WUI, and network user authentication. Also note that UTMFW 7.8 comes with OpenBSD 7.8-stable including all updates until November 11th, 2025.
 
 UTMFW supports deep SSL inspection of HTTP, POP3, and SMTP protocols. SSL/TLS encrypted traffic is decrypted by [SSLproxy](https://github.com/sonertari/SSLproxy) and fed into the UTM services: Web Filter, POP3 Proxy, SMTP Proxy, and Inline IPS (and indirectly into Virus Scanner and Spam Filter through those UTM software). These UTM software have been modified to support the mode of operation required by SSLproxy.
 
@@ -16,21 +16,21 @@ UTMFW runs on amd64 and arm64 architectures. So, the UTMFW project releases inst
 
 Amd64:
 
-- [utmfw77\_20250506\_amd64.iso](https://drive.google.com/file/d/1_QQ8vSY67pHcNDxoWTQQe6-dIh8Il-ir/view?usp=sharing)
+- [utmfw78\_20251111\_amd64.iso](https://drive.google.com/file/d/1_QQ8vSY67pHcNDxoWTQQe6-dIh8Il-ir/view?usp=sharing)
 	+ SHA256 checksum: f67bf209998ee170ca4c8ea81bceb106cba243b6bf94205e9cc4bcb9a5f0658a
 	+ Tested on VMware
 
-- [utmfw77\_20250506\_amd64.img](https://drive.google.com/file/d/1h7ZkRFpvh6XTJ3FwGDFvxvn8m-VYNXoN/view?usp=sharing)
+- [utmfw78\_20251111\_amd64.img](https://drive.google.com/file/d/1h7ZkRFpvh6XTJ3FwGDFvxvn8m-VYNXoN/view?usp=sharing)
 	+ SHA256 checksum: 1157515287fff4c44211457686c2160b8adc83d9b5a7cb7f29913ccd235d6fce
 	+ Tested on bare hardware
 
 Arm64:
 
-- [utmfw77\_20250506\_arm64.iso](https://drive.google.com/file/d/1-z3NkoVpJ94sM1l-vIlD3-BoVjYjt7XS/view?usp=sharing)
+- [utmfw78\_20251111\_arm64.iso](https://drive.google.com/file/d/1-z3NkoVpJ94sM1l-vIlD3-BoVjYjt7XS/view?usp=sharing)
 	+ SHA256 checksum: cd46760d53f4e8131bd14dfa5638e801cdf963a62f303919e83982f0ceeb0767
 	+ Tested on UTM for macOS
 
-- [utmfw77\_20250506\_arm64.img](https://drive.google.com/file/d/1Zj9-Du2vr6poTPIyGwrsLxfqQdzsdQkI/view?usp=sharing)
+- [utmfw78\_20251111\_arm64.img](https://drive.google.com/file/d/1Zj9-Du2vr6poTPIyGwrsLxfqQdzsdQkI/view?usp=sharing)
 	+ SHA256 checksum: 1649975a1f8a8745f70039fa38a97e0534ca108e75f5f4c7444d2b8271fd8063
 	+ Tested on Raspberry Pi 4 Model B
 
@@ -107,7 +107,7 @@ Web interface user names are admin and user. Network user is utmfw. All are set 
 
 References:
 
-1. INSTALL.amd64 in the installation iso file and INSTALL.arm64 in the installation img file.
+1. INSTALL.amd64 and INSTALL.arm64 in the installation files.
 2. [Supported hardware for amd64](https://www.openbsd.org/amd64.html) and [supported hardware for arm64](https://www.openbsd.org/arm64.html).
 3. [OpenBSD installation guide](https://www.openbsd.org/faq/faq4.html).
 
@@ -135,7 +135,7 @@ A few notes about UTMFW installation:
 
 ## How to build
 
-The purpose in this section is to build the installation iso or img file using the createiso or createimg script, respectively, at the root of the project source tree. You are expected to be doing these on an OpenBSD 7.7 and have installed git, gettext, and doxygen on it.
+The purpose in this section is to build the installation iso or img file using the createiso or createimg script, respectively, at the root of the project source tree. You are expected to be doing these on an OpenBSD 7.8 and have installed git, gettext, and doxygen on it.
 
 ### Build summary
 
@@ -276,7 +276,7 @@ The following are steps you can follow to build UTMFW yourself. Some of these st
 			+ collectd
 		+ Sign all of the UTMFW packages using signify, note that you should use the private key file utmfw-XY-pkg.sec for pkg, for example:
 			```
-			signify -Sz -s utmfw-XY-pkg.sec -m /usr/ports/packages/amd64/all/sslproxy-0.9.8.tgz -x ~/sslproxy-0.9.8.tgz
+			signify -Sz -s utmfw-XY-pkg.sec -m /usr/ports/packages/amd64/all/sslproxy-0.9.9.tgz -x ~/sslproxy-0.9.9.tgz
 			```
 	+ Update the links under cd/amd64/X.Y/packages/ with the UTMFW packages made above
 
