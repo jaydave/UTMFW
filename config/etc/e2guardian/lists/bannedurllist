@@ -38,30 +38,17 @@
 
 .Include</etc/e2guardian/lists/blacklists/adult/urls>
 .Include</etc/e2guardian/lists/blacklists/agressif/urls>
-.Include</etc/e2guardian/lists/blacklists/arjel/urls>
-.Include</etc/e2guardian/lists/blacklists/associations_religieuses/urls>
 .Include</etc/e2guardian/lists/blacklists/astrology/urls>
 .Include</etc/e2guardian/lists/blacklists/audio-video/urls>
-.Include</etc/e2guardian/lists/blacklists/bank/urls>
 .Include</etc/e2guardian/lists/blacklists/bitcoin/urls>
 .Include</etc/e2guardian/lists/blacklists/blog/urls>
 .Include</etc/e2guardian/lists/blacklists/celebrity/urls>
 .Include</etc/e2guardian/lists/blacklists/chat/urls>
-.Include</etc/e2guardian/lists/blacklists/child/urls>
-.Include</etc/e2guardian/lists/blacklists/cleaning/urls>
-.Include</etc/e2guardian/lists/blacklists/cooking/urls>
 .Include</etc/e2guardian/lists/blacklists/cryptojacking/urls>
 .Include</etc/e2guardian/lists/blacklists/dangerous_material/urls>
 .Include</etc/e2guardian/lists/blacklists/dating/urls>
-.Include</etc/e2guardian/lists/blacklists/ddos/urls>
-.Include</etc/e2guardian/lists/blacklists/dialer/urls>
 .Include</etc/e2guardian/lists/blacklists/doh/urls>
-.Include</etc/e2guardian/lists/blacklists/download/urls>
 .Include</etc/e2guardian/lists/blacklists/drogue/urls>
-.Include</etc/e2guardian/lists/blacklists/educational_games/urls>
-.Include</etc/e2guardian/lists/blacklists/examen_pix/urls>
-#.Include</etc/e2guardian/lists/blacklists/exceptions_liste_bu/urls>
-.Include</etc/e2guardian/lists/blacklists/fakenews/urls>
 .Include</etc/e2guardian/lists/blacklists/filehosting/urls>
 .Include</etc/e2guardian/lists/blacklists/financial/urls>
 .Include</etc/e2guardian/lists/blacklists/forums/urls>
@@ -70,8 +57,6 @@
 .Include</etc/e2guardian/lists/blacklists/hacking/urls>
 .Include</etc/e2guardian/lists/blacklists/jobsearch/urls>
 .Include</etc/e2guardian/lists/blacklists/lingerie/urls>
-#.Include</etc/e2guardian/lists/blacklists/liste_blanche/urls>
-#.Include</etc/e2guardian/lists/blacklists/liste_bu/urls>
 .Include</etc/e2guardian/lists/blacklists/malware/urls>
 .Include</etc/e2guardian/lists/blacklists/manga/urls>
 .Include</etc/e2guardian/lists/blacklists/marketingware/urls>
@@ -84,9 +69,7 @@
 .Include</etc/e2guardian/lists/blacklists/reaffected/urls>
 .Include</etc/e2guardian/lists/blacklists/redirector/urls>
 .Include</etc/e2guardian/lists/blacklists/remote-control/urls>
-.Include</etc/e2guardian/lists/blacklists/residential-proxies/urls>
 .Include</etc/e2guardian/lists/blacklists/sect/urls>
-.Include</etc/e2guardian/lists/blacklists/sexual_education/urls>
 .Include</etc/e2guardian/lists/blacklists/shopping/urls>
 .Include</etc/e2guardian/lists/blacklists/shortener/urls>
 .Include</etc/e2guardian/lists/blacklists/social_networks/urls>
@@ -95,12 +78,10 @@
 .Include</etc/e2guardian/lists/blacklists/stalkerware/urls>
 .Include</etc/e2guardian/lists/blacklists/strict_redirector/urls>
 .Include</etc/e2guardian/lists/blacklists/strong_redirector/urls>
-.Include</etc/e2guardian/lists/blacklists/translation/urls>
-.Include</etc/e2guardian/lists/blacklists/tricheur/urls>
 .Include</etc/e2guardian/lists/blacklists/tricheur_pix/urls>
-.Include</etc/e2guardian/lists/blacklists/update/urls>
-.Include</etc/e2guardian/lists/blacklists/vpn/urls>
+.Include</etc/e2guardian/lists/blacklists/tricheur/urls>
 .Include</etc/e2guardian/lists/blacklists/warez/urls>
+.Include</etc/e2guardian/lists/blacklists/webhosting/urls>
 .Include</etc/e2guardian/lists/blacklists/webmail/urls>
 
 # You will need to edit to add and remove categories you want
