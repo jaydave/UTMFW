@@ -16,22 +16,22 @@ UTMFW runs on amd64 and arm64 architectures. So, the UTMFW project releases inst
 
 Amd64:
 
-- [utmfw78\_20251111\_amd64.iso](https://drive.google.com/file/d/1_QQ8vSY67pHcNDxoWTQQe6-dIh8Il-ir/view?usp=sharing)
-	+ SHA256 checksum: f67bf209998ee170ca4c8ea81bceb106cba243b6bf94205e9cc4bcb9a5f0658a
+- [utmfw78\_20251113\_amd64.iso](https://drive.google.com/file/d/1pEfsMF4ooA35iDV3lYO4P2KQdPiiHxVY/view?usp=sharing)
+	+ SHA256 checksum: 51806e83742f0d6bf1c7a0c0a959f562d97288b32cffbacc25a9247fa87ddd32
 	+ Tested on VMware
 
-- [utmfw78\_20251111\_amd64.img](https://drive.google.com/file/d/1h7ZkRFpvh6XTJ3FwGDFvxvn8m-VYNXoN/view?usp=sharing)
-	+ SHA256 checksum: 1157515287fff4c44211457686c2160b8adc83d9b5a7cb7f29913ccd235d6fce
+- [utmfw78\_20251113\_amd64.img](https://drive.google.com/file/d/13m2m5ik0j_H1CpCwXw3eTc9-D_LigctU/view?usp=sharing)
+	+ SHA256 checksum: ecfd4aa1a39391d2c703ef19d5bbf79d592278f5ee59f4bb25585e20998589ac
 	+ Tested on bare hardware
 
 Arm64:
 
-- [utmfw78\_20251111\_arm64.iso](https://drive.google.com/file/d/1-z3NkoVpJ94sM1l-vIlD3-BoVjYjt7XS/view?usp=sharing)
-	+ SHA256 checksum: cd46760d53f4e8131bd14dfa5638e801cdf963a62f303919e83982f0ceeb0767
+- [utmfw78\_20251113\_arm64.iso](https://drive.google.com/file/d/1ZfJFTmI5TWfyuUI3mdnwhjbGI4jtDuWe/view?usp=sharing)
+	+ SHA256 checksum: 7efc53d84588beadffd39f07dda6811b21050c657eda33876980dd59d641d901
 	+ Tested on UTM for macOS
 
-- [utmfw78\_20251111\_arm64.img](https://drive.google.com/file/d/1Zj9-Du2vr6poTPIyGwrsLxfqQdzsdQkI/view?usp=sharing)
-	+ SHA256 checksum: 1649975a1f8a8745f70039fa38a97e0534ca108e75f5f4c7444d2b8271fd8063
+- [utmfw78\_20251113\_arm64.img](https://drive.google.com/file/d/15ulKNzBMXGKwRqf1AjQdS0DYRKwJWcUk/view?usp=sharing)
+	+ SHA256 checksum: 314a023f7a764579f0e509a073eb363e36884d0172b68c3878980ec8171d631a
 	+ Tested on Raspberry Pi 4 Model B
 
 Make sure the SHA256 checksums are correct.
@@ -325,6 +325,7 @@ The following are steps you can follow to build UTMFW yourself. Some of these st
 		cvs -d anoncvs@anoncvs.spacehopper.org:/cvs -q up -Pd -rOPENBSD_X_Y
 		```
 	+ Download and copy [the Broadcom wifi drivers](https://github.com/pftf/RPi4/tree/master/firmware/brcm) for Raspberry Pi 4 to /etc/firmware/
+		+ During installation and first boot, fw_update downloads and overwrites the bwfm firmware under /etc/firmware/. If you have problems with the bwfm wifi interface, for example in hostap mode, you are advised to revert to the firmware at the link provided here.
 	+ Follow the instructions in release(8), this step takes about 6 hours on a relatively fast amd64 computer and longer than 60 hours on a Raspberry Pi 4
 		+ Build the kernel and reboot
 		+ Build the base system
