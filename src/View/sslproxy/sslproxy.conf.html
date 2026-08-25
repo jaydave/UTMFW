@@ -266,6 +266,14 @@ sslproxy.conf(5)                   SSLproxy                   sslproxy.conf(5)
      <span class="bold">RemoveHTTPReferer</span> <span class="bold">BOOL</span>
             Remove HTTP header line for Referer.
             Default: yes
+
+     <span class="bold">StripClientHello</span> <span class="bold">BOOL</span>
+            Strip ClientHello messages from content, PCAP, and mirror logs
+            during autossl mode.  When a connection is upgraded from plain TCP
+            to SSL/TLS in autossl mode, the initial cleartext ClientHello
+            message sent by the client is stripped from the logs to prevent
+            polluting them with the SSL handshake.
+            Default: no
 <a name="VerifyPeer"></a>
      <span class="bold">VerifyPeer</span> <span class="bold">BOOL</span>
             Verify peer using default certificates.
@@ -431,6 +439,7 @@ sslproxy.conf(5)                   SSLproxy                   sslproxy.conf(5)
             AllowWrongHost
             RemoveHTTPAcceptEncoding
             RemoveHTTPReferer
+            StripClientHello
             MaxHTTPHeaderSize
             ValidateProto
             UserAuth
@@ -484,6 +493,7 @@ sslproxy.conf(5)                   SSLproxy                   sslproxy.conf(5)
             AllowWrongHost
             RemoveHTTPAcceptEncoding
             RemoveHTTPReferer
+            StripClientHello
             MaxHTTPHeaderSize
             ValidateProto
             UserAuth
@@ -512,7 +522,7 @@ sslproxy.conf(5)                   SSLproxy                   sslproxy.conf(5)
 <span class="bold">SEE</span> <span class="bold">ALSO</span>
      sslproxy(1)
 
-v0.9.9                            09 Nov 2025                 sslproxy.conf(5)
+v0.9.11                           24 Aug 2026                 sslproxy.conf(5)
 </pre>
 </body>
 </html>

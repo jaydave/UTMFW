@@ -30,7 +30,7 @@ MULTI_PACKAGES =	-main -rrdtool -ping
 
 WANTLIB-rrdtool =	X11 Xext Xrender cairo expat fontconfig \
 			freetype glib-2.0 gobject-2.0 \
-			harfbuzz iconv intl lzma m \
+			harfbuzz iconv intl m \
 			pango-1.0 pangocairo-1.0 \
 			pixman-1 png pthread rrd xcb \
 			xcb-render xcb-shm xml2 z
@@ -47,7 +47,7 @@ LIB_DEPENDS +=	net/curl \
 		security/libgcrypt \
 		devel/libyajl
 
-WANTLIB += c crypto gpg-error kvm curl xml2 lzma nghttp2
+WANTLIB += c crypto gpg-error kvm curl xml2 nghttp2
 WANTLIB += m pcap pthread ssl xml2 z statgrab gcrypt iconv intl
 WANTLIB += yajl
 

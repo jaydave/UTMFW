@@ -1,11 +1,11 @@
-From sonertari@gmail.com Tue Nov 11 07:08:00 EET 2025
+From sonertari@gmail.com Sun Aug 30 07:09:00 EET 2026
 Return-Path: root
-Date: Nov 11 07:08:00 EET 2025
+Date: Aug 30 07:09:00 EET 2026
 From: sonertari@gmail.com (Soner Tari)
 To: root
-Subject: Welcome to UTMFW 7.8!
+Subject: Welcome to UTMFW 7.9!
 
 Highlights of this release are:
-- SSLproxy 0.9.9
+- SSLproxy 0.9.11
 - Variety of fixes and improvements
 
