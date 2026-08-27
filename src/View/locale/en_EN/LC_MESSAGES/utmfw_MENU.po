@@ -208,9 +208,6 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
-msgid "Notifier"
-msgstr ""
-
 msgid "OPENSSH"
 msgstr ""
 
@@ -257,9 +254,6 @@ msgid "SOCKS PROXY"
 msgstr ""
 
 msgid "SPAM FILTER"
-msgstr ""
-
-msgid "SPAMD"
 msgstr ""
 
 msgid "SSL PROXY"

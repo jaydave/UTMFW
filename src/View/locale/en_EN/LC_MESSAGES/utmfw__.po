@@ -130,9 +130,6 @@ msgstr ""
 msgid "Check if process running"
 msgstr ""
 
-msgid "Chinese simplified"
-msgstr ""
-
 msgid "Cleared"
 msgstr ""
 
@@ -250,9 +247,6 @@ msgstr ""
 msgid "Dropped Packets"
 msgstr ""
 
-msgid "Dutch"
-msgstr ""
-
 msgid "E-mail address wrong"
 msgstr ""
 
@@ -281,9 +275,6 @@ msgid "Enable notifier SSL verify peer"
 msgstr ""
 
 msgid "Enable rule"
-msgstr ""
-
-msgid "English"
 msgstr ""
 
 msgid "Erase statistics files"
@@ -344,9 +335,6 @@ msgid "Filename not accepted"
 msgstr ""
 
 msgid "Filepath wrong"
-msgstr ""
-
-msgid "French"
 msgstr ""
 
 msgid "Generate SSL key pairs"
@@ -888,9 +876,6 @@ msgstr ""
 msgid "Ruleset contains errors"
 msgstr ""
 
-msgid "Russian"
-msgstr ""
-
 msgid "STAT"
 msgstr ""
 
@@ -1044,9 +1029,6 @@ msgstr ""
 msgid "Set system nameserver"
 msgstr ""
 
-msgid "Set template ips"
-msgstr ""
-
 msgid "Set use SSH"
 msgstr ""
 
@@ -1054,9 +1036,6 @@ msgid "Set user password"
 msgstr ""
 
 msgid "Source"
-msgstr ""
-
-msgid "Spanish"
 msgstr ""
 
 msgid "Start "
@@ -1117,9 +1096,6 @@ msgid "Timed out running command"
 msgstr ""
 
 msgid "Too many args"
-msgstr ""
-
-msgid "Turkish"
 msgstr ""
 
 msgid "Turn off cats"

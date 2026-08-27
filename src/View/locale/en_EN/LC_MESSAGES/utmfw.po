@@ -32,8 +32,8 @@ msgid ""
 "To help preserve the full banned URL, including parameters, the variables "
 "passed into the access denied CGI are separated using non-standard "
 "delimiters. This can be useful to ensure correct operation of the filter "
-"bypass modes. Parameters are split using \"::\" in place of \"&\", and \"=="
-"\" in place of \"=\".\n"
+"bypass modes. Parameters are split using \"::\" in place of \"&\", and "
+"\"==\" in place of \"=\".\n"
 "Default is enabled, but to go back to the standard mode, disable it."
 msgstr ""
 
@@ -260,27 +260,10 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-msgid ""
-"All about advertising: This includes sites offering banners and banner "
-"creation as well as sites delivering banners to be shown in webpages and "
-"advertising companies."
-msgstr ""
-
-msgid ""
-"All about sports: sports teams, sport discussions as well as information "
-"about sports people and the various sports themselves."
-msgstr ""
-
 msgid "All alerts"
 msgstr ""
 
 msgid "All attempts"
-msgstr ""
-
-msgid "All connections"
-msgstr ""
-
-msgid "All domains where people login obtaining a dynamic IP address."
 msgstr ""
 
 msgid "All monitoring processes write to the same log file."
@@ -296,38 +279,6 @@ msgid "All rights reserved."
 msgstr ""
 
 msgid "All sessions"
-msgstr ""
-
-msgid ""
-"All sites about astrology, horoscopes, numerology, palm reading and so on; "
-"sites that offer services to fortell the future."
-msgstr ""
-
-msgid ""
-"All sites related motorboats. Included are vendor sites, resellers, fan and "
-"hobby pages as well as and suppliers."
-msgstr ""
-
-msgid ""
-"All sites related to cars. Included are automobile companies and automotive "
-"suppliers."
-msgstr ""
-
-msgid ""
-"All sites related to motorcycles. Included are vendor sites, resellers, fan "
-"and hobby pages as well as and suppliers. Scooters included."
-msgstr ""
-
-msgid ""
-"All sites related to planes ranging from small one and two seaters up to the "
-"large traffic planes, old and new, private, commercial and military. Vendors "
-"and supplier are included (airports are not). Helicopter sites are included "
-"as well."
-msgstr ""
-
-msgid ""
-"All topics concerning pets: description, breed, food, looks, fairs, favorite "
-"pet stories and so on."
 msgstr ""
 
 msgid "All un/blocks and extensions"
@@ -370,6 +321,9 @@ msgid ""
 msgstr ""
 
 msgid "Anchor"
+msgstr ""
+
+msgid "Anchors"
 msgstr ""
 
 msgid "And <COUNT> others not shown."
@@ -875,9 +829,6 @@ msgstr ""
 msgid "Check if process running"
 msgstr ""
 
-msgid "Chinese simplified"
-msgstr ""
-
 msgid "Cipher"
 msgstr ""
 
@@ -944,14 +895,6 @@ msgid ""
 "You should restart the collectd process to activate your changes."
 msgstr ""
 
-msgid "Collection of search engines and directory sites."
-msgstr ""
-
-msgid ""
-"Collection of sites offering programs to break licence keys, licence keys "
-"themselves, cracked software and other copyrighted material."
-msgstr ""
-
 msgid "Comment"
 msgstr ""
 
@@ -1001,9 +944,6 @@ msgid "Connection Idle Time"
 msgstr ""
 
 msgid "Connections"
-msgstr ""
-
-msgid "Connections by date"
 msgstr ""
 
 msgid "Connections handled by the FTP Proxy"
@@ -1158,9 +1098,6 @@ msgid "Defaults"
 msgstr ""
 
 msgid "Defaults to disabled (on | off)"
-msgstr ""
-
-msgid "Deferred IPs"
 msgstr ""
 
 msgid ""
@@ -1391,11 +1328,6 @@ msgstr ""
 msgid "Disabled Services"
 msgstr ""
 
-msgid ""
-"Discussion sites. Covers explicit forum sites and some blogs. Sites where "
-"people can discuss and share information in a non interactive/real-time way."
-msgstr ""
-
 msgid "Disk I/O"
 msgstr ""
 
@@ -1453,9 +1385,6 @@ msgid "Domain"
 msgstr ""
 
 msgid "Domains"
-msgstr ""
-
-msgid "Domains and urls of TV and radio stations."
 msgstr ""
 
 msgid "Down"
@@ -1519,9 +1448,6 @@ msgid ""
 msgstr ""
 
 msgid "Durations"
-msgstr ""
-
-msgid "Dutch"
 msgstr ""
 
 msgid "E-mail address wrong"
@@ -1651,9 +1577,6 @@ msgid "End"
 msgstr ""
 
 msgid "Enforce TOS"
-msgstr ""
-
-msgid "English"
 msgstr ""
 
 msgid "Enter blank lines here"
@@ -1885,9 +1808,6 @@ msgstr ""
 msgid "Filters"
 msgstr ""
 
-msgid "Finance in general."
-msgstr ""
-
 msgid "Fingerprints File"
 msgstr ""
 
@@ -1920,8 +1840,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"For extra security beyond that provided by SSL/TLS, create an \"HMAC firewall"
-"\" to help block DoS attacks and UDP port flooding.\n"
+"For extra security beyond that provided by SSL/TLS, create an \"HMAC "
+"firewall\" to help block DoS attacks and UDP port flooding.\n"
 "\n"
 "Generate with:\n"
 "  openvpn --genkey --secret ta.key\n"
@@ -1954,9 +1874,6 @@ msgid "Fragment"
 msgstr ""
 
 msgid "Frags"
-msgstr ""
-
-msgid "French"
 msgstr ""
 
 msgid ""
@@ -2420,13 +2337,11 @@ msgid "Here you can change the language used in the spam reports."
 msgstr ""
 
 msgid ""
-"Here you can change the web administration interface passwords for admin and "
+"Here you can change the web administration interface password for admin "
 "user. Passwords should have at least 8 alphanumeric characters.\n"
 "\n"
-"Admin can change the user password without knowing the current user "
-"password. But if you forget the admin password, you should login to the "
-"system as root and run the following on the command line to set the password "
-"to soner123:\n"
+"If you forget the admin password, you should login to the system as root and "
+"run the following on the command line to set the password to soner123:\n"
 "<code>/usr/bin/chpass -a \"admin:$(/usr/bin/encrypt `/bin/echo -n soner123 | "
 "sha1 -`):1000:1000::0:0:UTMFW admin:/var/empty:/var/www/htdocs/utmfw/"
 "Controller/sh.php\"</code>"
@@ -2505,19 +2420,6 @@ msgstr ""
 msgid "Holidays"
 msgstr ""
 
-msgid ""
-"Home page of banking companies are listed here. This is not restricted to "
-"online banking."
-msgstr ""
-
-msgid ""
-"Home pages of Internet Service Providers. Sites of companies offering "
-"webspace only are now being added, too"
-msgstr ""
-
-msgid "Home pages of schools, colleges and universities."
-msgstr ""
-
 msgid "Horizontal"
 msgstr ""
 
@@ -2555,11 +2457,6 @@ msgstr ""
 msgid ""
 "How many attempts to make before giving up.\n"
 "\t\tDefault: 3 (per mirror)"
-msgstr ""
-
-msgid ""
-"Humorous pages, comic strips, funny stories, everything which makes people "
-"laugh."
 msgstr ""
 
 msgid "ICMP Timeouts"
@@ -3097,9 +2994,6 @@ msgstr ""
 msgid "List physical interfaces"
 msgstr ""
 
-msgid "List to allow necessary downloads from vendors."
-msgstr ""
-
 msgid "Listed"
 msgstr ""
 
@@ -3266,9 +3160,6 @@ msgid "Logout"
 msgstr ""
 
 msgid "Logs"
-msgstr ""
-
-msgid "Longest deferred (sec)"
 msgstr ""
 
 msgid "Loopback Interface"
@@ -3552,11 +3443,6 @@ msgstr ""
 msgid "Minute"
 msgstr ""
 
-msgid ""
-"Model agency, model and supermodel fan pages and other model sites "
-"presenting model photos. No porn pictures."
-msgstr ""
-
 msgid "Mon"
 msgstr ""
 
@@ -3754,9 +3640,6 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
-msgid "Notifier"
-msgstr ""
-
 msgid "Notifier API Key"
 msgstr ""
 
@@ -3873,9 +3756,6 @@ msgstr ""
 msgid ""
 "One or more actions failed while creating new group\n"
 "Examine the report above to make sure this is the intended result!"
-msgstr ""
-
-msgid "Online libraries and sites where you can read e-books."
 msgstr ""
 
 msgid "Only webcam sessions on Yahoo are recognized and blocked"
@@ -4131,6 +4011,9 @@ msgstr ""
 msgid "Ping times for two hosts"
 msgstr ""
 
+msgid "Pktdelay pkts"
+msgstr ""
+
 msgid "Pmacct"
 msgstr ""
 
@@ -4138,11 +4021,6 @@ msgid "Pmacct Network Monitoring"
 msgstr ""
 
 msgid "Port"
-msgstr ""
-
-msgid ""
-"Portals for job offers and job seekers as well as the career and work-for-us "
-"pages of companies."
 msgstr ""
 
 msgid "Ports you run secure shell on."
@@ -4593,9 +4471,6 @@ msgstr ""
 msgid "Running"
 msgstr ""
 
-msgid "Russian"
-msgstr ""
-
 msgid "SHELLCODE_PORTS"
 msgstr ""
 
@@ -4643,9 +4518,6 @@ msgid "SPAM Filter"
 msgstr ""
 
 msgid "SPAM scans completed by the SPAM Filter"
-msgstr ""
-
-msgid "SPAMD"
 msgstr ""
 
 msgid "SPort"
@@ -5021,9 +4893,6 @@ msgid ""
 "Min 5 - Max 100"
 msgstr ""
 
-msgid "Set template ips"
-msgstr ""
-
 msgid ""
 "Set the appropriate level of log file verbosity.\n"
 "0 is silent, except for fatal errors\n"
@@ -5145,238 +5014,12 @@ msgstr ""
 msgid "Site"
 msgstr ""
 
-msgid "Site for real-time chatting and instant messaging."
-msgstr ""
-
 msgid "Sites"
-msgstr ""
-
-msgid ""
-"Sites about all kinds of sexual content ranging from bare bosoms to hardcore "
-"porn and sm."
-msgstr ""
-
-msgid ""
-"Sites about all types of real estate, buying and selling homes, finding "
-"apartments for rent."
-msgstr ""
-
-msgid "Sites about and related to stock exchange."
-msgstr ""
-
-msgid ""
-"Sites about everything need to create a cozy home (interior design and "
-"accessories)."
-msgstr ""
-
-msgid ""
-"Sites about gardening, growing plants, fighting bugs and everything related "
-"to gardening."
-msgstr ""
-
-msgid ""
-"Sites about killing and harming people. Covers anything about brutality and "
-"beastiality."
-msgstr ""
-
-msgid "Sites about online games. The games are for fun only (no gambling)."
-msgstr ""
-
-msgid ""
-"Sites about treatments for feeling internally and externally healthy and "
-"beautiful again."
-msgstr ""
-
-msgid "Sites belonging to the government of a country, county or city."
-msgstr ""
-
-msgid ""
-"Sites bringing people together (social networking) be it for friendship or "
-"for business."
-msgstr ""
-
-msgid "Sites concerning food and food preparation."
-msgstr ""
-
-msgid ""
-"Sites dedicated to martial arts such as: karate, kung fu, taek won do as "
-"well as fighting sports sites like ufc."
-msgstr ""
-
-msgid ""
-"Sites explaining the biological functions of the body concerning sexuality "
-"as well as sexual health."
 msgstr ""
 
 msgid ""
 "Sites in the Whitelist are not scanned for viruses. You can omit the leading "
 "www. or http://"
-msgstr ""
-
-msgid ""
-"Sites keeping an eye on where you surf and what you do in a passive manner. "
-"Covers web bugs, counters and other tracking mechanisms in web pages that do "
-"not interfere with the local computer yet collect information about the "
-"surfing person for later analysis."
-msgstr ""
-
-msgid ""
-"Sites of breweries, wineries and destilleries. This category also covers "
-"sites that explain how to make beer, wines and spirits."
-msgstr ""
-
-msgid "Sites of hospitals and medical facilities."
-msgstr ""
-
-msgid ""
-"Sites of institutions as well as of amateurs about all topics of astronomy."
-msgstr ""
-
-msgid ""
-"Sites of institutions as well as of amateurs about all topics of chemistry."
-msgstr ""
-
-msgid ""
-"Sites of insurance companies, information about insurances and link "
-"collections concering this subject."
-msgstr ""
-
-msgid "Sites of military facilities or related to the armed forces."
-msgstr ""
-
-msgid ""
-"Sites of political parties, political organisations and associations; sites "
-"with political discussions."
-msgstr ""
-
-msgid ""
-"Sites of restaurants as well as restaurant descriptions and commentaries."
-msgstr ""
-
-msgid "Sites offering TV streams via Internet."
-msgstr ""
-
-msgid ""
-"Sites offering all kinds of weapons or accessories for weapons: Firearms, "
-"knifes, swords, bows, etc. Armory shops are included as well as sites "
-"holding general information about arms (manufacturing, usage)."
-msgstr ""
-
-msgid ""
-"Sites offering cinema programs, information about movies and actors. Sites "
-"for downloading video clips/movies (as long as it is legal) are included as "
-"well."
-msgstr ""
-
-msgid ""
-"Sites offering drugs or explain how to make drugs. Covers alcohol and "
-"tobacco as well as viagra and similar substances."
-msgstr ""
-
-msgid "Sites offering online shopping and price comparisons."
-msgstr ""
-
-msgid "Sites offering podcasts or podcast services, includes audio books."
-msgstr ""
-
-msgid "Sites offering short links for URLs. "
-msgstr ""
-
-msgid ""
-"Sites offering the possibility to win money. Poker, Casino, Bingo and other "
-"chance games as well as betting sites."
-msgstr ""
-
-msgid ""
-"Sites offering the service to remotely access computers, especially (but not "
-"limited to going) through firewalls. This does not cover traditional VPN."
-msgstr ""
-
-msgid ""
-"Sites one can apply for loans and mortgages or can obtain information about "
-"this business."
-msgstr ""
-
-msgid ""
-"Sites presenting news. Homepages from newspapers, magazines and journals as "
-"well as some blogs."
-msgstr ""
-
-msgid ""
-"Sites providing vpn services to the public. The focus is on vpn sites used "
-"to hide the origin of the traffic, f.e. tor nodes."
-msgstr ""
-
-msgid ""
-"Sites related to games. This includes descriptions, news and general "
-"information about games. No gambling sites."
-msgstr ""
-
-msgid "Sites selling and presenting sexy lingerie."
-msgstr ""
-
-msgid "Sites specialized on hosting images, photo galleries and so on."
-msgstr ""
-
-msgid ""
-"Sites that actively help to bypass url filters by accepting urls via form "
-"and play a proxing and redirecting role."
-msgstr ""
-
-msgid ""
-"Sites that enable user to phone via the Internet. Any site where users can "
-"voice-chat with each other."
-msgstr ""
-
-msgid ""
-"Sites that lure with free of charge services but then give then give you a "
-"costly subscription (written somewhere in tiny letters nearly unreadable)."
-msgstr ""
-
-msgid "Sites that offer listening to music and radio live streams."
-msgstr ""
-
-msgid ""
-"Sites that offer the download of music, information about music groups or "
-"music in general."
-msgstr ""
-
-msgid ""
-"Sites that offer the download of ringtones or present other information "
-"about ringtones."
-msgstr ""
-
-msgid "Sites that offer web-based email services."
-msgstr ""
-
-msgid ""
-"Sites that try to actively install software or lure the user in doing so in "
-"order to spy the surfing behaviour (or worse). The home calling sites where "
-"the collected information is sent, are listed too."
-msgstr ""
-
-msgid ""
-"Sites to contact people for love and living together. He seeks her, she "
-"seeks him and so on."
-msgstr ""
-
-msgid "Sites with aggressive content such as racism and hate speech."
-msgstr ""
-
-msgid ""
-"Sites with information about foreign countries, travel companies, travel "
-"fares, accommodations and everything else that has to do with travel."
-msgstr ""
-
-msgid ""
-"Sites with information and discussions about security weaknesses and how to "
-"exploit them. Sites offering exploits are listed as well as sites "
-"distributing programs that help to find security leaks."
-msgstr ""
-
-msgid ""
-"Sites with religious content: all kind of churches, sects, religious "
-"interpretations, etc."
 msgstr ""
 
 msgid "Size"
@@ -5518,24 +5161,12 @@ msgstr ""
 msgid "Spamd Grey DB"
 msgstr ""
 
-msgid "Spamd Grey Listing"
-msgstr ""
-
-msgid "Spamd Logging"
-msgstr ""
-
-msgid "Spamd Spam Deferral"
-msgstr ""
-
 msgid "Spamd White DB"
 msgstr ""
 
 msgid ""
 "Spamd logs connections from spam sources and greylisted clients. Also "
 "recorded is length of time the client remained connected to spamd."
-msgstr ""
-
-msgid "Spanish"
 msgstr ""
 
 msgid "Src Nodes"
@@ -6090,11 +5721,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This covers mostly filesharing, p2p and torrent sites. Other download sites "
-"(for software, wallpapers, ..) are included as well."
-msgstr ""
-
-msgid ""
 "This graph shows overall network usage based on certain protocols. Note that "
 "each protocol may cover more than one port."
 msgstr ""
@@ -6256,8 +5882,8 @@ msgstr ""
 
 msgid ""
 "This option determines whether members of this group have their web access "
-"unfiltered, filtered, or banned. This mechanism replaces the \"banneduserlist"
-"\" and \"exceptionuserlist\" files from previous versions.\n"
+"unfiltered, filtered, or banned. This mechanism replaces the "
+"\"banneduserlist\" and \"exceptionuserlist\" files from previous versions.\n"
 "\n"
 "0 = banned\n"
 "1 = filtered\n"
@@ -6346,14 +5972,14 @@ msgid ""
 "<ul class=\"nomargin\"><li class=\"nomargin\">Source IP: IP address the "
 "connection originated from</li><li class=\"nomargin\">From: envelope-from "
 "address for GREY (empty for WHITE entries)</li><li class=\"nomargin\">To: "
-"envelope-to address for GREY (empty for WHITE entries)</li><li class="
-"\"nomargin\">First: time the entry was first seen</li><li class=\"nomargin"
-"\">Listed: time the entry passed from being GREY to being WHITE</li><li "
-"class=\"nomargin\">Expire: time the entry will expire and be removed from "
-"the database</li><li class=\"nomargin\">#Block: number of times a "
-"corresponding connection received a temporary failure from spamd(8)</li><li "
-"class=\"nomargin\">#Passed: number of times a corresponding connection has "
-"been seen to pass to the real MTA by spamlogd(8)</li></ul>\n"
+"envelope-to address for GREY (empty for WHITE entries)</li><li "
+"class=\"nomargin\">First: time the entry was first seen</li><li "
+"class=\"nomargin\">Listed: time the entry passed from being GREY to being "
+"WHITE</li><li class=\"nomargin\">Expire: time the entry will expire and be "
+"removed from the database</li><li class=\"nomargin\">#Block: number of times "
+"a corresponding connection received a temporary failure from spamd(8)</"
+"li><li class=\"nomargin\">#Passed: number of times a corresponding "
+"connection has been seen to pass to the real MTA by spamlogd(8)</li></ul>\n"
 "E-mails originating from Whitelist entries are allowed until expiration "
 "date.\n"
 "\n"
@@ -6493,9 +6119,6 @@ msgstr ""
 msgid "Total Upload (KB)"
 msgstr ""
 
-msgid "Total deferred time (sec)"
-msgstr ""
-
 msgid "Total number of critical errors reported by the system and services"
 msgstr ""
 
@@ -6536,9 +6159,6 @@ msgid "Try to preserve some state across restarts."
 msgstr ""
 
 msgid "Tue"
-msgstr ""
-
-msgid "Turkish"
 msgstr ""
 
 msgid "Turn off cats"
@@ -7456,7 +7076,7 @@ msgstr ""
 msgid "username or userid"
 msgstr ""
 
-msgid "utmfw currently supports only admin and user usernames"
+msgid "utmfw currently supports only admin username"
 msgstr ""
 
 msgid "valid string"

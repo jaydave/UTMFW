@@ -7,9 +7,6 @@ msgstr ""
 msgid "All attempts"
 msgstr ""
 
-msgid "All connections"
-msgstr ""
-
 msgid "All queries"
 msgstr ""
 
@@ -26,9 +23,6 @@ msgid "Allowed requests"
 msgstr ""
 
 msgid "Attack Types"
-msgstr ""
-
-msgid "Blacklists"
 msgstr ""
 
 msgid "Blocked Hosts"
@@ -71,12 +65,6 @@ msgid "Closed by"
 msgstr ""
 
 msgid "Connections"
-msgstr ""
-
-msgid "Connections by date"
-msgstr ""
-
-msgid "Deferred IPs"
 msgstr ""
 
 msgid "Denied IPs"
@@ -197,9 +185,6 @@ msgid "Locked IPs"
 msgstr ""
 
 msgid "Logged in user"
-msgstr ""
-
-msgid "Longest deferred (sec)"
 msgstr ""
 
 msgid "Matched requests"
@@ -365,9 +350,6 @@ msgid "Target IPs"
 msgstr ""
 
 msgid "Target Ports"
-msgstr ""
-
-msgid "Total deferred time (sec)"
 msgstr ""
 
 msgid "Transmitted (KB)"

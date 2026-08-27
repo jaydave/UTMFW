@@ -246,5 +246,5 @@ msgstr ""
 msgid "ruleset has errors"
 msgstr ""
 
-msgid "utmfw currently supports only admin and user usernames"
+msgid "utmfw currently supports only admin username"
 msgstr ""

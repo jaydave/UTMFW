@@ -928,15 +928,6 @@ msgstr ""
 msgid "Spamd Grey DB"
 msgstr ""
 
-msgid "Spamd Grey Listing"
-msgstr ""
-
-msgid "Spamd Logging"
-msgstr ""
-
-msgid "Spamd Spam Deferral"
-msgstr ""
-
 msgid "Spamd White DB"
 msgstr ""
 

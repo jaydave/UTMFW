@@ -58,6 +58,9 @@ msgstr ""
 msgid "Anchor"
 msgstr ""
 
+msgid "Anchors"
+msgstr ""
+
 msgid "And <COUNT> others not shown."
 msgstr ""
 
@@ -682,6 +685,9 @@ msgid "Physical Memory"
 msgstr ""
 
 msgid "Ping Times"
+msgstr ""
+
+msgid "Pktdelay pkts"
 msgstr ""
 
 msgid "Pmacct"
