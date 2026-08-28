@@ -16,22 +16,22 @@ UTMFW runs on amd64 and arm64 architectures. So, the UTMFW project releases inst
 
 Amd64:
 
-- [utmfw79\_20260830\_amd64.iso](https://drive.google.com/file/d/1pEfsMF4ooA35iDV3lYO4P2KQdPiiHxVY/view?usp=sharing)
-	+ SHA256 checksum: 51806e83742f0d6bf1c7a0c0a959f562d97288b32cffbacc25a9247fa87ddd32
+- [utmfw79\_20260827\_amd64.iso](https://drive.google.com/file/d/10oEjeVnsGDOSHxnQVa3hg43ekXKxb36h/view?usp=sharing)
+	+ SHA256 checksum: 92879a6b594372fc1114def4b530379ec899045a1ff8dda9833bbff313c74326
 	+ Tested on VMware
 
-- [utmfw79\_20260830\_amd64.img](https://drive.google.com/file/d/13m2m5ik0j_H1CpCwXw3eTc9-D_LigctU/view?usp=sharing)
-	+ SHA256 checksum: ecfd4aa1a39391d2c703ef19d5bbf79d592278f5ee59f4bb25585e20998589ac
+- [utmfw79\_20260827\_amd64.img](https://drive.google.com/file/d/1MTZ3HC7HB2L1yNqQf5uZhHjbCS71r2wb/view?usp=sharing)
+	+ SHA256 checksum: e43272764cd0a8a831daa23091cc871ec9e0632e56695aafa74b9664a4142956
 	+ Tested on bare hardware
 
 Arm64:
 
-- [utmfw79\_20260830\_arm64.iso](https://drive.google.com/file/d/1ZfJFTmI5TWfyuUI3mdnwhjbGI4jtDuWe/view?usp=sharing)
-	+ SHA256 checksum: 7efc53d84588beadffd39f07dda6811b21050c657eda33876980dd59d641d901
+- [utmfw79\_20260827\_arm64.iso](https://drive.google.com/file/d/10mbUmQJAlenf9mTkVE7QEi9SwiIFZNk-/view?usp=sharing)
+	+ SHA256 checksum: 58d5b48955a1bf49596c45e614c7731e61d4ceb1d05a41ce53e7200fb05593c2
 	+ Tested on UTM for macOS
 
-- [utmfw79\_20260830\_arm64.img](https://drive.google.com/file/d/15ulKNzBMXGKwRqf1AjQdS0DYRKwJWcUk/view?usp=sharing)
-	+ SHA256 checksum: 314a023f7a764579f0e509a073eb363e36884d0172b68c3878980ec8171d631a
+- [utmfw79\_20260827\_arm64.img](https://drive.google.com/file/d/1pSdNMFonNUtfhWHI2o7u7D9DVSGFQkR5/view?usp=sharing)
+	+ SHA256 checksum: 9b2cfd4c88f77d30769629be8c4c69090520612ce12438f238528c505464149f
 	+ Tested on Raspberry Pi 4 Model B
 
 Make sure the SHA256 checksums are correct.
